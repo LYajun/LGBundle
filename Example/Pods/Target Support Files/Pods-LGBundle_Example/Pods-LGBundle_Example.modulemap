@@ -1,0 +1,6 @@
+framework module Pods_LGBundle_Example {
+  umbrella header "Pods-LGBundle_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

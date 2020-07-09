@@ -1,0 +1,16 @@
+PODS:
+  - LGBundle (1.0.0)
+
+DEPENDENCIES:
+  - LGBundle (from `../`)
+
+EXTERNAL SOURCES:
+  LGBundle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGBundle: 5be2ab26d001da80824345f3660936fa96ff09ae
+
+PODFILE CHECKSUM: bb3633fdab6d594ba434e3595bd2cdc46655e539
+
+COCOAPODS: 1.9.2
