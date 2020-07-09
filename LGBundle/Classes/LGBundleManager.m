@@ -56,4 +56,8 @@
 - (NSString *)loadingDir{
     return [[_currentBundle resourcePath] stringByAppendingPathComponent:@"Loading1"];
 }
+- (NSString *)pathWithName:(NSString *)name{
+    return [[_currentBundle resourcePath] stringByAppendingPathComponent:name];
+}
+
 @end
