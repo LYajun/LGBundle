@@ -1,5 +1,19 @@
 PODS:
-  - LGBundle (1.0.0)
+  - LGBundle (1.0.1):
+    - LGBundle/LGAudioBundle (= 1.0.1)
+    - LGBundle/LGBarBundle (= 1.0.1)
+    - LGBundle/LGBundle (= 1.0.1)
+    - LGBundle/LGCommonBundle (= 1.0.1)
+    - LGBundle/Manager (= 1.0.1)
+  - LGBundle/LGAudioBundle (1.0.1):
+    - LGBundle/Manager
+  - LGBundle/LGBarBundle (1.0.1):
+    - LGBundle/Manager
+  - LGBundle/LGBundle (1.0.1):
+    - LGBundle/Manager
+  - LGBundle/LGCommonBundle (1.0.1):
+    - LGBundle/Manager
+  - LGBundle/Manager (1.0.1)
 
 DEPENDENCIES:
   - LGBundle (from `../`)
@@ -9,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LGBundle: 5be2ab26d001da80824345f3660936fa96ff09ae
+  LGBundle: c1960a5a68ea3d65fbc2c69589d7e9f8553e64db
 
 PODFILE CHECKSUM: bb3633fdab6d594ba434e3595bd2cdc46655e539
 

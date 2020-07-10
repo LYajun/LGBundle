@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGBundle'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of LGBundle.'
 
 
@@ -25,7 +25,28 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  s.ios.deployment_target = '8.0'
-  s.source_files = 'LGBundle/Classes/*{h,m}'
-  s.resources = 'LGBundle/Classes/LGBundle.bundle'
+  s.subspec 'Manager' do |manager|
+    manager.source_files = 'LGBundle/Classes/Manager/*{h,m}'
+  end
+
+  s.subspec 'LGBundle' do |bundle|
+    bundle.dependency 'LGBundle/Manager'
+    bundle.resources = 'LGBundle/Classes/LGBundle/LGBundle.bundle'
+  end
+
+  s.subspec 'LGAudioBundle' do |audiobundle|
+    audiobundle.dependency 'LGBundle/Manager'
+    audiobundle.resources = 'LGBundle/Classes/LGAudioBundle/LGAudioBundle.bundle'
+  end
+
+
+  s.subspec 'LGBarBundle' do |barbundle|
+    barbundle.dependency 'LGBundle/Manager'
+    barbundle.resources = 'LGBundle/Classes/LGBarBundle/LGBarBundle.bundle'
+  end
+
+   s.subspec 'LGCommonBundle' do |commonbundle|
+    commonbundle.dependency 'LGBundle/Manager'
+    commonbundle.resources = 'LGBundle/Classes/LGCommonBundle/LGCommonBundle.bundle'
+  end
 end

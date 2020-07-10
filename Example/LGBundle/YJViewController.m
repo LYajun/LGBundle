@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
 
-    self.imgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathWithName:@"Empty/empty_1"]];
+    self.imgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBundleWithName:@"Empty/empty_1"]];
 }
 
 

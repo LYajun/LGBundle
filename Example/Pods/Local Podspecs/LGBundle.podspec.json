@@ -1,6 +1,6 @@
 {
   "name": "LGBundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A short description of LGBundle.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LYajun/LGBundle",
@@ -13,11 +13,51 @@
   },
   "source": {
     "git": "https://github.com/LYajun/LGBundle.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LGBundle/Classes/*{h,m}",
-  "resources": "LGBundle/Classes/LGBundle.bundle"
+  "subspecs": [
+    {
+      "name": "Manager",
+      "source_files": "LGBundle/Classes/Manager/*{h,m}"
+    },
+    {
+      "name": "LGBundle",
+      "dependencies": {
+        "LGBundle/Manager": [
+
+        ]
+      },
+      "resources": "LGBundle/Classes/LGBundle/LGBundle.bundle"
+    },
+    {
+      "name": "LGAudioBundle",
+      "dependencies": {
+        "LGBundle/Manager": [
+
+        ]
+      },
+      "resources": "LGBundle/Classes/LGAudioBundle/LGAudioBundle.bundle"
+    },
+    {
+      "name": "LGBarBundle",
+      "dependencies": {
+        "LGBundle/Manager": [
+
+        ]
+      },
+      "resources": "LGBundle/Classes/LGBarBundle/LGBarBundle.bundle"
+    },
+    {
+      "name": "LGCommonBundle",
+      "dependencies": {
+        "LGBundle/Manager": [
+
+        ]
+      },
+      "resources": "LGBundle/Classes/LGCommonBundle/LGCommonBundle.bundle"
+    }
+  ]
 }
