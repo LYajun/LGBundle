@@ -25,8 +25,8 @@
 }
 
 - (void)configure{
-    _bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGBundle" ofType:@"bundle"]];
-    _barBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGBarBundle" ofType:@"bundle"]];
+    _bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"Bundle" ofType:@"bundle"]];
+    _barBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"BarBundle" ofType:@"bundle"]];
   
     
     [self initLoadingImg];
@@ -49,16 +49,16 @@
 }
 
 - (NSString *)emptyDir{
-    return [[_bundle resourcePath] stringByAppendingPathComponent:@"Empty"];
+    return [[_bundle resourcePath] stringByAppendingPathComponent:@"empty"];
 }
 - (NSString *)errorDir{
-    return [[_bundle resourcePath] stringByAppendingPathComponent:@"Error"];
+    return [[_bundle resourcePath] stringByAppendingPathComponent:@"error"];
 }
 - (NSString *)searchEmptyDir{
-    return [[_bundle resourcePath] stringByAppendingPathComponent:@"SearchEmpty"];
+    return [[_bundle resourcePath] stringByAppendingPathComponent:@"search_empty"];
 }
 - (NSString *)loadingDir{
-    return [[_bundle resourcePath] stringByAppendingPathComponent:@"Loading1"];
+    return [[_bundle resourcePath] stringByAppendingPathComponent:@"loading1"];
 }
 
 - (NSString *)navbarBgDir{

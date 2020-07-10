@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGBundle'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of LGBundle.'
 
 
@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
     manager.source_files = 'LGBundle/Classes/Manager/*{h,m}'
   end
 
-  s.subspec 'LGBundle' do |bundle|
+  s.subspec 'Bundle' do |bundle|
     bundle.dependency 'LGBundle/Manager'
-    bundle.resources = 'LGBundle/Classes/LGBundle/LGBundle.bundle'
+    bundle.resources = 'LGBundle/Classes/Bundle/Bundle.bundle'
   end
 
-  s.subspec 'LGBarBundle' do |barbundle|
+  s.subspec 'BarBundle' do |barbundle|
     barbundle.dependency 'LGBundle/Manager'
-    barbundle.resources = 'LGBundle/Classes/LGBarBundle/LGBarBundle.bundle'
+    barbundle.resources = 'LGBundle/Classes/BarBundle/BarBundle.bundle'
   end
 
   

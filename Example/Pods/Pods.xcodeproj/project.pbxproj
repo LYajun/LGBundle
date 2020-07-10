@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2394D56F02C9E1F6546106A61B317FB3 /* LGBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */; };
+		2394D56F02C9E1F6546106A61B317FB3 /* LGBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F98FADFB9CE1552B2337FB49E2AAB0 /* LGBundleManager.m */; };
 		332BF01FED355C1AC6B1F7BAE86794E1 /* Pods-LGBundle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C7CE1DB22281851FEB6B0E7EE89FFA /* Pods-LGBundle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D71638538291EDFE3D4179C94C15C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		56571D62EC45714C8440721AE7AB3291 /* LGBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6949A9E5031FC4D7B379CF1CDFD59646 /* LGBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */; };
-		6D0043158087AF219036403E6F4C55BB /* LGBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */; };
+		56571D62EC45714C8440721AE7AB3291 /* LGBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F97EBBD9A1033D16D17E4865845D987D /* LGBundleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59AF5AF5F1BC56B059DFD21DF56F4995 /* Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 007F149FA6E58350B94243E97BAB43D8 /* Bundle.bundle */; };
+		6D0043158087AF219036403E6F4C55BB /* LGBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B471D4B86D400897BDEB99D3AFBF6A /* LGBundle-dummy.m */; };
 		86EB05AE5563B44ABE635179CC431582 /* Pods-LGBundle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB3374357279E94AEBE558C36A4B44C /* Pods-LGBundle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92639EFC15FEE6452A6EC5C865AFCAAE /* LGBarBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */; };
 		B4F07BF11248F9414205BC10879F2BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BC13D3F6A3F1815B1A3C329C76412D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C18A3DBA2B86E9C8AF0D630D9E4FB7C2 /* LGBundle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18A3DBA2B86E9C8AF0D630D9E4FB7C2 /* LGBundle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F79B28AF3D5A83C85E850B7B4F72D7 /* LGBundle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFAC6AAC79CCB9BF3503FD0EA055F151 /* Pods-LGBundle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8325B2E118F8D732ED82AEB7961E93 /* Pods-LGBundle_Tests-dummy.m */; };
+		D9ADFF0158864EABBDB0EB2997296201 /* BarBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A97100079B188F3D32AB6C24BA4E858E /* BarBundle.bundle */; };
 		E27725EC53FD3C695C0679A5DA841F4F /* Pods-LGBundle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7892554DD495D5908C25E2EB438A7D /* Pods-LGBundle_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,42 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007F149FA6E58350B94243E97BAB43D8 /* Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Bundle.bundle; path = LGBundle/Classes/Bundle/Bundle.bundle; sourceTree = "<group>"; };
 		042460D457B9D6DEBB472C80B14481FE /* Pods-LGBundle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGBundleManager.m; path = LGBundle/Classes/Manager/LGBundleManager.m; sourceTree = "<group>"; };
 		10DCC3F16181CE418EDFACB43C5541DF /* Pods_LGBundle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBundle_Tests.framework; path = "Pods-LGBundle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C34ECD23F459F155AACA1EE0D13B3F /* Pods-LGBundle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Example-Info.plist"; sourceTree = "<group>"; };
 		14BAEE48C7154217E8AD6F1B3EFA00F1 /* Pods-LGBundle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBundle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1994D2E968A6E15F8001AF1FA8E0FF15 /* Pods-LGBundle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBundle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26B5799B851C3CAB419F2A7EEBDF6587 /* LGBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.release.xcconfig; sourceTree = "<group>"; };
 		27DCCB5E00D1D66D31637E29CD9BD15D /* Pods-LGBundle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28C46629705865AE720AD0D7E55503E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32C7CE1DB22281851FEB6B0E7EE89FFA /* Pods-LGBundle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBundle_Tests-umbrella.h"; sourceTree = "<group>"; };
-		36D858F69D8B71597B705AEE71BCB016 /* LGBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGBundle-Info.plist"; sourceTree = "<group>"; };
-		36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBundle.bundle; path = LGBundle/Classes/LGBundle/LGBundle.bundle; sourceTree = "<group>"; };
-		45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBundleManager.h; path = LGBundle/Classes/Manager/LGBundleManager.h; sourceTree = "<group>"; };
-		45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.release.xcconfig; sourceTree = "<group>"; };
+		43F79B28AF3D5A83C85E850B7B4F72D7 /* LGBundle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-umbrella.h"; sourceTree = "<group>"; };
+		45522F59196EA903AC6B8D06332A7D05 /* LGBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5355D4E2B10FFD3ABCFBF84291D1EEDB /* Pods-LGBundle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		686777F5C1DDE456492174C28277FFFA /* Pods-LGBundle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBundle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E5E980358C941316B1860A30F44A4F8 /* Pods-LGBundle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGBundle_Tests.modulemap"; sourceTree = "<group>"; };
+		7ED2AF43EAC6CB7C4251B3AF86FF0BA7 /* LGBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-prefix.pch"; sourceTree = "<group>"; };
+		81500C63853B20ABE6B1C8B2570CCAEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		83B471D4B86D400897BDEB99D3AFBF6A /* LGBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBundle-dummy.m"; sourceTree = "<group>"; };
 		8F1708231DC7200FEE09440ABB10E2CB /* LGBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGBundle.framework; path = LGBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9300EB0098460E6E6CBE7634C0FA8580 /* LGBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14C0B520BD6535F58526F20C41064FE /* Pods_LGBundle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBundle_Example.framework; path = "Pods-LGBundle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5719C7003AB2B36EC4B39B2EBE9B417 /* Pods-LGBundle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGBundle_Example.modulemap"; sourceTree = "<group>"; };
+		A97100079B188F3D32AB6C24BA4E858E /* BarBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BarBundle.bundle; path = LGBundle/Classes/BarBundle/BarBundle.bundle; sourceTree = "<group>"; };
 		AFD0AC2D3B011E327BF1664BB8AA9ABD /* Pods-LGBundle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Tests-Info.plist"; sourceTree = "<group>"; };
-		B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-umbrella.h"; sourceTree = "<group>"; };
 		B6DF5E64D1F5A8C44C582E31FFC79216 /* Pods-LGBundle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C3EBDBA9876DA27F09152A3104AE0154 /* LGBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-prefix.pch"; sourceTree = "<group>"; };
-		CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.debug.xcconfig; sourceTree = "<group>"; };
 		CF8325B2E118F8D732ED82AEB7961E93 /* Pods-LGBundle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBundle_Tests-dummy.m"; sourceTree = "<group>"; };
 		DA714F273A99FD0533793F649EEE044D /* Pods-LGBundle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC4AB0F96F8ED0E6E54CA72F5A486ABE /* LGBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.debug.xcconfig; sourceTree = "<group>"; };
 		DEB3374357279E94AEBE558C36A4B44C /* Pods-LGBundle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBundle_Example-umbrella.h"; sourceTree = "<group>"; };
-		DFEC7D52F9241CD3DB3E94E3375DB7E2 /* LGBundle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGBundle.modulemap; sourceTree = "<group>"; };
-		E409940E9289AD0910BB5B4BB6D3AC34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBundle-dummy.m"; sourceTree = "<group>"; };
-		E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBarBundle.bundle; path = LGBundle/Classes/LGBarBundle/LGBarBundle.bundle; sourceTree = "<group>"; };
+		E3F98FADFB9CE1552B2337FB49E2AAB0 /* LGBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGBundleManager.m; path = LGBundle/Classes/Manager/LGBundleManager.m; sourceTree = "<group>"; };
 		EC7892554DD495D5908C25E2EB438A7D /* Pods-LGBundle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBundle_Example-dummy.m"; sourceTree = "<group>"; };
+		F202B670DA13466C9E5C0535B3794186 /* LGBundle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGBundle.modulemap; sourceTree = "<group>"; };
+		F570F40085622F4D5057026A95868095 /* LGBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGBundle-Info.plist"; sourceTree = "<group>"; };
 		F6B736177F29BC86EA597310EC5B6DE8 /* Pods-LGBundle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FDA14CBE91E1535376424B79AA099D19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F97EBBD9A1033D16D17E4865845D987D /* LGBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBundleManager.h; path = LGBundle/Classes/Manager/LGBundleManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,22 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09579D8CFA9F40ED386C419FDCBDFFBC /* LGBarBundle */ = {
+		189BC33C39C52CF4B56E1445EE2DFDB7 /* BarBundle */ = {
 			isa = PBXGroup;
 			children = (
-				40092FF80BF1FAF55569C7324885F1FF /* Resources */,
+				A6E7B8BB08FFF741226E05CB1C8F6DB9 /* Resources */,
 			);
-			name = LGBarBundle;
+			name = BarBundle;
 			sourceTree = "<group>";
 		};
-		1004F57E5CA1A63A8B4478D6CD3F6181 /* LGBundle */ = {
+		1DDD5FF19D6381B88998057EF703C37A /* LGBundle */ = {
 			isa = PBXGroup;
 			children = (
-				09579D8CFA9F40ED386C419FDCBDFFBC /* LGBarBundle */,
-				928604BBF163A6E8D5E9EA18B8B0A039 /* LGBundle */,
-				54D74FB2827E0979B7B1A4F51A9E68C3 /* Manager */,
-				DCF624133FC3BC32DCA9B9D7515CF346 /* Pod */,
-				D36C6E2BFEED16F5069C7C12E7D415BD /* Support Files */,
+				189BC33C39C52CF4B56E1445EE2DFDB7 /* BarBundle */,
+				D71CDC5AAF850252BF22EC64DBB49851 /* Bundle */,
+				DE25E8FB4BFC3A982C989F4265E941D0 /* Manager */,
+				F09D2C8A594ED4B991D6129E26EAFCBB /* Pod */,
+				CB300F0460B2136F98CFF2AA239F0940 /* Support Files */,
 			);
 			name = LGBundle;
 			path = ../..;
@@ -160,21 +160,12 @@
 			path = "Target Support Files/Pods-LGBundle_Example";
 			sourceTree = "<group>";
 		};
-		40092FF80BF1FAF55569C7324885F1FF /* Resources */ = {
+		77A0C774C59005EF56138E59F3D8AFC2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */,
+				007F149FA6E58350B94243E97BAB43D8 /* Bundle.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		54D74FB2827E0979B7B1A4F51A9E68C3 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */,
-				096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */,
-			);
-			name = Manager;
 			sourceTree = "<group>";
 		};
 		8490E137F93C4B9AD42C32F1B57CFC13 /* Targets Support Files */ = {
@@ -186,26 +177,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8E6B154585DD1CEF5D05128770371F2C /* Resources */ = {
+		A6E7B8BB08FFF741226E05CB1C8F6DB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */,
+				A97100079B188F3D32AB6C24BA4E858E /* BarBundle.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		928604BBF163A6E8D5E9EA18B8B0A039 /* LGBundle */ = {
-			isa = PBXGroup;
-			children = (
-				8E6B154585DD1CEF5D05128770371F2C /* Resources */,
-			);
-			name = LGBundle;
 			sourceTree = "<group>";
 		};
 		B3E9E866EB123432AA2CBC02AC0663B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1004F57E5CA1A63A8B4478D6CD3F6181 /* LGBundle */,
+				1DDD5FF19D6381B88998057EF703C37A /* LGBundle */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -216,6 +199,21 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB300F0460B2136F98CFF2AA239F0940 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F202B670DA13466C9E5C0535B3794186 /* LGBundle.modulemap */,
+				83B471D4B86D400897BDEB99D3AFBF6A /* LGBundle-dummy.m */,
+				F570F40085622F4D5057026A95868095 /* LGBundle-Info.plist */,
+				7ED2AF43EAC6CB7C4251B3AF86FF0BA7 /* LGBundle-prefix.pch */,
+				43F79B28AF3D5A83C85E850B7B4F72D7 /* LGBundle-umbrella.h */,
+				DC4AB0F96F8ED0E6E54CA72F5A486ABE /* LGBundle.debug.xcconfig */,
+				26B5799B851C3CAB419F2A7EEBDF6587 /* LGBundle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBundle";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -237,21 +235,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D36C6E2BFEED16F5069C7C12E7D415BD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFEC7D52F9241CD3DB3E94E3375DB7E2 /* LGBundle.modulemap */,
-				E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */,
-				36D858F69D8B71597B705AEE71BCB016 /* LGBundle-Info.plist */,
-				C3EBDBA9876DA27F09152A3104AE0154 /* LGBundle-prefix.pch */,
-				B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */,
-				CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */,
-				45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LGBundle";
-			sourceTree = "<group>";
-		};
 		D427FC1AB7FE2B0B10C0065230CF28AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,12 +245,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCF624133FC3BC32DCA9B9D7515CF346 /* Pod */ = {
+		D71CDC5AAF850252BF22EC64DBB49851 /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
-				9300EB0098460E6E6CBE7634C0FA8580 /* LGBundle.podspec */,
-				FDA14CBE91E1535376424B79AA099D19 /* LICENSE */,
-				E409940E9289AD0910BB5B4BB6D3AC34 /* README.md */,
+				77A0C774C59005EF56138E59F3D8AFC2 /* Resources */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
+		DE25E8FB4BFC3A982C989F4265E941D0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F97EBBD9A1033D16D17E4865845D987D /* LGBundleManager.h */,
+				E3F98FADFB9CE1552B2337FB49E2AAB0 /* LGBundleManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		F09D2C8A594ED4B991D6129E26EAFCBB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45522F59196EA903AC6B8D06332A7D05 /* LGBundle.podspec */,
+				81500C63853B20ABE6B1C8B2570CCAEF /* LICENSE */,
+				28C46629705865AE720AD0D7E55503E6 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 				37FE19FCBD76D1CEFDFC8A340758D8CD /* Headers */,
 				232C69ECBA8D96B09784EF4364BB5EC0 /* Sources */,
 				F68C0A871A44906666AE1725E91274BF /* Frameworks */,
-				7F11A2EFED6FC2163B2ADE8B4981EB65 /* Resources */,
+				79E5775FEF427B59BA3D1B263527D140 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -396,12 +396,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F11A2EFED6FC2163B2ADE8B4981EB65 /* Resources */ = {
+		79E5775FEF427B59BA3D1B263527D140 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92639EFC15FEE6452A6EC5C865AFCAAE /* LGBarBundle.bundle in Resources */,
-				6949A9E5031FC4D7B379CF1CDFD59646 /* LGBundle.bundle in Resources */,
+				D9ADFF0158864EABBDB0EB2997296201 /* BarBundle.bundle in Resources */,
+				59AF5AF5F1BC56B059DFD21DF56F4995 /* Bundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,7 +651,7 @@
 		};
 		A57B567A833AD596B12622DD65FF1E21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */;
+			baseConfigurationReference = 26B5799B851C3CAB419F2A7EEBDF6587 /* LGBundle.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -683,7 +683,7 @@
 		};
 		C4BE8D8862B5D5DB30D4BEC10C3C98A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */;
+			baseConfigurationReference = DC4AB0F96F8ED0E6E54CA72F5A486ABE /* LGBundle.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
