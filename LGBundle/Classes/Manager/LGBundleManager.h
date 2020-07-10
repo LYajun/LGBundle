@@ -14,8 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSBundle *)bundle;
 - (NSBundle *)barBundle;
-- (NSBundle *)audioBundle;
-- (NSBundle *)commonBundle;
+
 
 - (NSArray *)loadingImgs;
 
@@ -24,10 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)searchEmptyDir;
 - (NSString *)loadingDir;
 
+- (NSString *)navbarBgDir;
+
 - (NSString *)pathInBundleWithName:(NSString *)name;
 - (NSString *)pathInBarBundleWithName:(NSString *)name;
-- (NSString *)pathInAudioBundleWithName:(NSString *)name;
-- (NSString *)pathInCommonBundleWithName:(NSString *)name;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -11,6 +11,7 @@
 
 @interface YJViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UIImageView *navbarImgView;
 
 @end
 
@@ -20,6 +21,7 @@
 {
     [super viewDidLoad];
 
+    self.navbarImgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBarBundleWithName:@"navbar_bg/bg_1"]];
     self.imgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBundleWithName:@"Empty/empty_1"]];
 }
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGBundle'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of LGBundle.'
 
 
@@ -34,19 +34,10 @@ TODO: Add long description of the pod here.
     bundle.resources = 'LGBundle/Classes/LGBundle/LGBundle.bundle'
   end
 
-  s.subspec 'LGAudioBundle' do |audiobundle|
-    audiobundle.dependency 'LGBundle/Manager'
-    audiobundle.resources = 'LGBundle/Classes/LGAudioBundle/LGAudioBundle.bundle'
-  end
-
-
   s.subspec 'LGBarBundle' do |barbundle|
     barbundle.dependency 'LGBundle/Manager'
     barbundle.resources = 'LGBundle/Classes/LGBarBundle/LGBarBundle.bundle'
   end
 
-   s.subspec 'LGCommonBundle' do |commonbundle|
-    commonbundle.dependency 'LGBundle/Manager'
-    commonbundle.resources = 'LGBundle/Classes/LGCommonBundle/LGCommonBundle.bundle'
-  end
+  
 end

@@ -11,8 +11,7 @@
 @property (nonatomic,strong) NSArray *loadingImgs;
 @property (nonatomic,strong) NSBundle *bundle;
 @property (nonatomic,strong) NSBundle *barBundle;
-@property (nonatomic,strong) NSBundle *audioBundle;
-@property (nonatomic,strong) NSBundle *commonBundle;
+
 @end
 @implementation LGBundleManager
 + (LGBundleManager *)defaultManager{
@@ -28,8 +27,7 @@
 - (void)configure{
     _bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGBundle" ofType:@"bundle"]];
     _barBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGBarBundle" ofType:@"bundle"]];
-    _audioBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGAudioBundle" ofType:@"bundle"]];
-    _commonBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"LGCommonBundle" ofType:@"bundle"]];
+  
     
     [self initLoadingImg];
 }
@@ -62,16 +60,16 @@
 - (NSString *)loadingDir{
     return [[_bundle resourcePath] stringByAppendingPathComponent:@"Loading1"];
 }
+
+- (NSString *)navbarBgDir{
+    return [[_barBundle resourcePath] stringByAppendingPathComponent:@"navbar_bg"];
+}
+
 - (NSString *)pathInBundleWithName:(NSString *)name{
     return [[_bundle resourcePath] stringByAppendingPathComponent:name];
 }
 - (NSString *)pathInBarBundleWithName:(NSString *)name{
      return [[_barBundle resourcePath] stringByAppendingPathComponent:name];
 }
-- (NSString *)pathInAudioBundleWithName:(NSString *)name{
-     return [[_audioBundle resourcePath] stringByAppendingPathComponent:name];
-}
-- (NSString *)pathInCommonBundleWithName:(NSString *)name{
-     return [[_commonBundle resourcePath] stringByAppendingPathComponent:name];
-}
+
 @end

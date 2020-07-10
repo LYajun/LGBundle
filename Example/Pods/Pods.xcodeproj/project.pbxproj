@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07211F04169E898D59827060AD88F694 /* LGBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B15D9A9D49FE47D56CEB2FCBB59DA19E /* LGBundle-dummy.m */; };
-		18A21EA8D87BA588A8CF128586EED806 /* LGAudioBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21B577A735AC984F88ABD77DD56AFAF9 /* LGAudioBundle.bundle */; };
-		2D680467FEAF38B7E318D493EC694041 /* LGBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50C49D51B6F6F79BC5EC1F0937508935 /* LGBundle.bundle */; };
+		2394D56F02C9E1F6546106A61B317FB3 /* LGBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */; };
 		332BF01FED355C1AC6B1F7BAE86794E1 /* Pods-LGBundle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C7CE1DB22281851FEB6B0E7EE89FFA /* Pods-LGBundle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D71638538291EDFE3D4179C94C15C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		72BECDF6EFA706148A992637ECC2710F /* LGBarBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EE042B85F14388C30E8E70A5F47FF51 /* LGBarBundle.bundle */; };
+		56571D62EC45714C8440721AE7AB3291 /* LGBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6949A9E5031FC4D7B379CF1CDFD59646 /* LGBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */; };
+		6D0043158087AF219036403E6F4C55BB /* LGBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */; };
 		86EB05AE5563B44ABE635179CC431582 /* Pods-LGBundle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB3374357279E94AEBE558C36A4B44C /* Pods-LGBundle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B8AC8A9CD56C67372D341738456DE68 /* LGBundle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7ED8944F3C6BADEA510487CFF7D384 /* LGBundle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B243FD913A0558C107A33171B7A51D18 /* LGBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1CBF79EAB2581B0C0F13F3EE511FA6 /* LGBundleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92639EFC15FEE6452A6EC5C865AFCAAE /* LGBarBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */; };
 		B4F07BF11248F9414205BC10879F2BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BC13D3F6A3F1815B1A3C329C76412D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C18A3DBA2B86E9C8AF0D630D9E4FB7C2 /* LGBundle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFAC6AAC79CCB9BF3503FD0EA055F151 /* Pods-LGBundle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8325B2E118F8D732ED82AEB7961E93 /* Pods-LGBundle_Tests-dummy.m */; };
 		E27725EC53FD3C695C0679A5DA841F4F /* Pods-LGBundle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7892554DD495D5908C25E2EB438A7D /* Pods-LGBundle_Example-dummy.m */; };
-		F9085EF0BFD088CADE0F83E777EB70CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F9C07B9F095B8E569346E6F0AE098640 /* LGBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56770FDDC335262B23B5FB750D25CD97 /* LGBundleManager.m */; };
-		FBD73DF7A3AF6DC874749E734E121467 /* LGCommonBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A8032803AE18C141E266DF027E8B580 /* LGCommonBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,54 +41,44 @@
 
 /* Begin PBXFileReference section */
 		042460D457B9D6DEBB472C80B14481FE /* Pods-LGBundle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0EE042B85F14388C30E8E70A5F47FF51 /* LGBarBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBarBundle.bundle; path = LGBundle/Classes/LGBarBundle/LGBarBundle.bundle; sourceTree = "<group>"; };
+		096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGBundleManager.m; path = LGBundle/Classes/Manager/LGBundleManager.m; sourceTree = "<group>"; };
 		10DCC3F16181CE418EDFACB43C5541DF /* Pods_LGBundle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBundle_Tests.framework; path = "Pods-LGBundle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C34ECD23F459F155AACA1EE0D13B3F /* Pods-LGBundle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Example-Info.plist"; sourceTree = "<group>"; };
 		14BAEE48C7154217E8AD6F1B3EFA00F1 /* Pods-LGBundle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBundle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1994D2E968A6E15F8001AF1FA8E0FF15 /* Pods-LGBundle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBundle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21B577A735AC984F88ABD77DD56AFAF9 /* LGAudioBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGAudioBundle.bundle; path = LGBundle/Classes/LGAudioBundle/LGAudioBundle.bundle; sourceTree = "<group>"; };
-		26533A59F723946D3A1ACDEFFCE2E589 /* LGBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGBundle-Info.plist"; sourceTree = "<group>"; };
 		27DCCB5E00D1D66D31637E29CD9BD15D /* Pods-LGBundle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32C7CE1DB22281851FEB6B0E7EE89FFA /* Pods-LGBundle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBundle_Tests-umbrella.h"; sourceTree = "<group>"; };
-		32FF128F4BFA1D9B33AC4B182F340DF3 /* LGBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.debug.xcconfig; sourceTree = "<group>"; };
-		447B6D83039D5FE300DAC8FA9A5D8EA3 /* LGBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.release.xcconfig; sourceTree = "<group>"; };
-		50C49D51B6F6F79BC5EC1F0937508935 /* LGBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBundle.bundle; path = LGBundle/Classes/LGBundle/LGBundle.bundle; sourceTree = "<group>"; };
+		36D858F69D8B71597B705AEE71BCB016 /* LGBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGBundle-Info.plist"; sourceTree = "<group>"; };
+		36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBundle.bundle; path = LGBundle/Classes/LGBundle/LGBundle.bundle; sourceTree = "<group>"; };
+		45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBundleManager.h; path = LGBundle/Classes/Manager/LGBundleManager.h; sourceTree = "<group>"; };
+		45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.release.xcconfig; sourceTree = "<group>"; };
 		5355D4E2B10FFD3ABCFBF84291D1EEDB /* Pods-LGBundle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		56770FDDC335262B23B5FB750D25CD97 /* LGBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGBundleManager.m; path = LGBundle/Classes/Manager/LGBundleManager.m; sourceTree = "<group>"; };
-		5A8032803AE18C141E266DF027E8B580 /* LGCommonBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGCommonBundle.bundle; path = LGBundle/Classes/LGCommonBundle/LGCommonBundle.bundle; sourceTree = "<group>"; };
 		686777F5C1DDE456492174C28277FFFA /* Pods-LGBundle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBundle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E5E980358C941316B1860A30F44A4F8 /* Pods-LGBundle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGBundle_Tests.modulemap"; sourceTree = "<group>"; };
 		8F1708231DC7200FEE09440ABB10E2CB /* LGBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGBundle.framework; path = LGBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A1CBF79EAB2581B0C0F13F3EE511FA6 /* LGBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBundleManager.h; path = LGBundle/Classes/Manager/LGBundleManager.h; sourceTree = "<group>"; };
-		9B4D9ED8897E0CA43F3CA76C4B90B222 /* LGBundle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGBundle.modulemap; sourceTree = "<group>"; };
+		9300EB0098460E6E6CBE7634C0FA8580 /* LGBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14C0B520BD6535F58526F20C41064FE /* Pods_LGBundle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBundle_Example.framework; path = "Pods-LGBundle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5719C7003AB2B36EC4B39B2EBE9B417 /* Pods-LGBundle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGBundle_Example.modulemap"; sourceTree = "<group>"; };
 		AFD0AC2D3B011E327BF1664BB8AA9ABD /* Pods-LGBundle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Tests-Info.plist"; sourceTree = "<group>"; };
-		B15D9A9D49FE47D56CEB2FCBB59DA19E /* LGBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBundle-dummy.m"; sourceTree = "<group>"; };
+		B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-umbrella.h"; sourceTree = "<group>"; };
 		B6DF5E64D1F5A8C44C582E31FFC79216 /* Pods-LGBundle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BCE32EFE6615F93AB9D72240F3C810C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3EBDBA9876DA27F09152A3104AE0154 /* LGBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-prefix.pch"; sourceTree = "<group>"; };
+		CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBundle.debug.xcconfig; sourceTree = "<group>"; };
 		CF8325B2E118F8D732ED82AEB7961E93 /* Pods-LGBundle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBundle_Tests-dummy.m"; sourceTree = "<group>"; };
 		DA714F273A99FD0533793F649EEE044D /* Pods-LGBundle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBundle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEB3374357279E94AEBE558C36A4B44C /* Pods-LGBundle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBundle_Example-umbrella.h"; sourceTree = "<group>"; };
-		DF7ED8944F3C6BADEA510487CFF7D384 /* LGBundle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-umbrella.h"; sourceTree = "<group>"; };
+		DFEC7D52F9241CD3DB3E94E3375DB7E2 /* LGBundle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGBundle.modulemap; sourceTree = "<group>"; };
+		E409940E9289AD0910BB5B4BB6D3AC34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBundle-dummy.m"; sourceTree = "<group>"; };
+		E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LGBarBundle.bundle; path = LGBundle/Classes/LGBarBundle/LGBarBundle.bundle; sourceTree = "<group>"; };
 		EC7892554DD495D5908C25E2EB438A7D /* Pods-LGBundle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBundle_Example-dummy.m"; sourceTree = "<group>"; };
-		F42CEC54F0D3180E16FD063733CFFA8C /* LGBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBundle-prefix.pch"; sourceTree = "<group>"; };
 		F6B736177F29BC86EA597310EC5B6DE8 /* Pods-LGBundle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBundle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F78666EB65BC7824B0934D8C68ACCEDD /* LGBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F9836F4A7DDD36572E2FF8D9D97AF7AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FDA14CBE91E1535376424B79AA099D19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4ADCB7D630A3EA1564478EB90ED3AF20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9085EF0BFD088CADE0F83E777EB70CB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5870906CD2AAC9FBF35ED823441D3675 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,30 +95,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F68C0A871A44906666AE1725E91274BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC13D3F6A3F1815B1A3C329C76412D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		152FE327F04797DA4E1EACBEF86F47DC /* Support Files */ = {
+		09579D8CFA9F40ED386C419FDCBDFFBC /* LGBarBundle */ = {
 			isa = PBXGroup;
 			children = (
-				9B4D9ED8897E0CA43F3CA76C4B90B222 /* LGBundle.modulemap */,
-				B15D9A9D49FE47D56CEB2FCBB59DA19E /* LGBundle-dummy.m */,
-				26533A59F723946D3A1ACDEFFCE2E589 /* LGBundle-Info.plist */,
-				F42CEC54F0D3180E16FD063733CFFA8C /* LGBundle-prefix.pch */,
-				DF7ED8944F3C6BADEA510487CFF7D384 /* LGBundle-umbrella.h */,
-				32FF128F4BFA1D9B33AC4B182F340DF3 /* LGBundle.debug.xcconfig */,
-				447B6D83039D5FE300DAC8FA9A5D8EA3 /* LGBundle.release.xcconfig */,
+				40092FF80BF1FAF55569C7324885F1FF /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LGBundle";
+			name = LGBarBundle;
 			sourceTree = "<group>";
 		};
-		19E36DDD2456EFE4A55BE275A76271BD /* Resources */ = {
+		1004F57E5CA1A63A8B4478D6CD3F6181 /* LGBundle */ = {
 			isa = PBXGroup;
 			children = (
-				21B577A735AC984F88ABD77DD56AFAF9 /* LGAudioBundle.bundle */,
+				09579D8CFA9F40ED386C419FDCBDFFBC /* LGBarBundle */,
+				928604BBF163A6E8D5E9EA18B8B0A039 /* LGBundle */,
+				54D74FB2827E0979B7B1A4F51A9E68C3 /* Manager */,
+				DCF624133FC3BC32DCA9B9D7515CF346 /* Pod */,
+				D36C6E2BFEED16F5069C7C12E7D415BD /* Support Files */,
 			);
-			name = Resources;
+			name = LGBundle;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		29F9A3831B26E26C16E82BF3B0EE7164 /* Pods-LGBundle_Tests */ = {
@@ -166,37 +160,21 @@
 			path = "Target Support Files/Pods-LGBundle_Example";
 			sourceTree = "<group>";
 		};
-		2F770EC7CFC939051226C0A556630116 /* LGBarBundle */ = {
+		40092FF80BF1FAF55569C7324885F1FF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A8F1217B048FA5241D848997A1B2EC24 /* Resources */,
+				E95E744953C0637454F6F76FDFBBE0C1 /* LGBarBundle.bundle */,
 			);
-			name = LGBarBundle;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		343AC5C0D60C98CAFF66043C1B4F836B /* Manager */ = {
+		54D74FB2827E0979B7B1A4F51A9E68C3 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				9A1CBF79EAB2581B0C0F13F3EE511FA6 /* LGBundleManager.h */,
-				56770FDDC335262B23B5FB750D25CD97 /* LGBundleManager.m */,
+				45B635FF5D27DBF58703793F04AFAF52 /* LGBundleManager.h */,
+				096B65841A13178072E896A23FDDF4E0 /* LGBundleManager.m */,
 			);
 			name = Manager;
-			sourceTree = "<group>";
-		};
-		68821B250FB9F3F1842B4FA495E499D8 /* LGAudioBundle */ = {
-			isa = PBXGroup;
-			children = (
-				19E36DDD2456EFE4A55BE275A76271BD /* Resources */,
-			);
-			name = LGAudioBundle;
-			sourceTree = "<group>";
-		};
-		7100FD3FEB9936BF11B3F786F4BBFDF9 /* LGBundle */ = {
-			isa = PBXGroup;
-			children = (
-				94A5D3DC5332ADF6FD25E8CA283EB967 /* Resources */,
-			);
-			name = LGBundle;
 			sourceTree = "<group>";
 		};
 		8490E137F93C4B9AD42C32F1B57CFC13 /* Targets Support Files */ = {
@@ -208,43 +186,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		887143CEA7B28CD08F203DD60C17F63B /* LGCommonBundle */ = {
+		8E6B154585DD1CEF5D05128770371F2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D046F5D266605E9D6CDA113FBC8F40FF /* Resources */,
+				36DF932DE6F4444D6C8312B34B9D6CE0 /* LGBundle.bundle */,
 			);
-			name = LGCommonBundle;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		8B6C062CA78C6A694F6D18D04064111A /* LGBundle */ = {
+		928604BBF163A6E8D5E9EA18B8B0A039 /* LGBundle */ = {
 			isa = PBXGroup;
 			children = (
-				68821B250FB9F3F1842B4FA495E499D8 /* LGAudioBundle */,
-				2F770EC7CFC939051226C0A556630116 /* LGBarBundle */,
-				7100FD3FEB9936BF11B3F786F4BBFDF9 /* LGBundle */,
-				887143CEA7B28CD08F203DD60C17F63B /* LGCommonBundle */,
-				343AC5C0D60C98CAFF66043C1B4F836B /* Manager */,
-				E20FBB239265360EA2ED34B37AD1416F /* Pod */,
-				152FE327F04797DA4E1EACBEF86F47DC /* Support Files */,
+				8E6B154585DD1CEF5D05128770371F2C /* Resources */,
 			);
 			name = LGBundle;
-			path = ../..;
 			sourceTree = "<group>";
 		};
-		94A5D3DC5332ADF6FD25E8CA283EB967 /* Resources */ = {
+		B3E9E866EB123432AA2CBC02AC0663B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				50C49D51B6F6F79BC5EC1F0937508935 /* LGBundle.bundle */,
+				1004F57E5CA1A63A8B4478D6CD3F6181 /* LGBundle */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A8F1217B048FA5241D848997A1B2EC24 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0EE042B85F14388C30E8E70A5F47FF51 /* LGBarBundle.bundle */,
-			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -259,19 +222,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F87BEDB1A167FFB843F8BF5E25540836 /* Development Pods */,
+				B3E9E866EB123432AA2CBC02AC0663B9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D427FC1AB7FE2B0B10C0065230CF28AC /* Products */,
 				8490E137F93C4B9AD42C32F1B57CFC13 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D046F5D266605E9D6CDA113FBC8F40FF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5A8032803AE18C141E266DF027E8B580 /* LGCommonBundle.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -280,6 +235,21 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36C6E2BFEED16F5069C7C12E7D415BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC7D52F9241CD3DB3E94E3375DB7E2 /* LGBundle.modulemap */,
+				E6CB8C3B95C125821AC2B23589D7AD49 /* LGBundle-dummy.m */,
+				36D858F69D8B71597B705AEE71BCB016 /* LGBundle-Info.plist */,
+				C3EBDBA9876DA27F09152A3104AE0154 /* LGBundle-prefix.pch */,
+				B260F1642B12297D004F33B17C30D9A0 /* LGBundle-umbrella.h */,
+				CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */,
+				45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBundle";
 			sourceTree = "<group>";
 		};
 		D427FC1AB7FE2B0B10C0065230CF28AC /* Products */ = {
@@ -292,22 +262,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E20FBB239265360EA2ED34B37AD1416F /* Pod */ = {
+		DCF624133FC3BC32DCA9B9D7515CF346 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F78666EB65BC7824B0934D8C68ACCEDD /* LGBundle.podspec */,
-				BCE32EFE6615F93AB9D72240F3C810C4 /* LICENSE */,
-				F9836F4A7DDD36572E2FF8D9D97AF7AF /* README.md */,
+				9300EB0098460E6E6CBE7634C0FA8580 /* LGBundle.podspec */,
+				FDA14CBE91E1535376424B79AA099D19 /* LICENSE */,
+				E409940E9289AD0910BB5B4BB6D3AC34 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		F87BEDB1A167FFB843F8BF5E25540836 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B6C062CA78C6A694F6D18D04064111A /* LGBundle */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,20 +283,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37FE19FCBD76D1CEFDFC8A340758D8CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18A3DBA2B86E9C8AF0D630D9E4FB7C2 /* LGBundle-umbrella.h in Headers */,
+				56571D62EC45714C8440721AE7AB3291 /* LGBundleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D80A1C66710A325C33828440921E408 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				332BF01FED355C1AC6B1F7BAE86794E1 /* Pods-LGBundle_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE4F8A6A665125B565F21E1D3FF8212D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B8AC8A9CD56C67372D341738456DE68 /* LGBundle-umbrella.h in Headers */,
-				B243FD913A0558C107A33171B7A51D18 /* LGBundleManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,12 +343,12 @@
 		};
 		CCFDFF1855581AF2E00D359D7F7FCF23 /* LGBundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180E8EF14A1FADD112BB8BA6F5D3A3A1 /* Build configuration list for PBXNativeTarget "LGBundle" */;
+			buildConfigurationList = 80A80A0B2451C1697B4520F029A5FA8C /* Build configuration list for PBXNativeTarget "LGBundle" */;
 			buildPhases = (
-				CE4F8A6A665125B565F21E1D3FF8212D /* Headers */,
-				A104D8A17732A570746BE9C59D594888 /* Sources */,
-				4ADCB7D630A3EA1564478EB90ED3AF20 /* Frameworks */,
-				B4819CF0AB5E119B2C28F433925CF524 /* Resources */,
+				37FE19FCBD76D1CEFDFC8A340758D8CD /* Headers */,
+				232C69ECBA8D96B09784EF4364BB5EC0 /* Sources */,
+				F68C0A871A44906666AE1725E91274BF /* Frameworks */,
+				7F11A2EFED6FC2163B2ADE8B4981EB65 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -434,6 +396,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F11A2EFED6FC2163B2ADE8B4981EB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92639EFC15FEE6452A6EC5C865AFCAAE /* LGBarBundle.bundle in Resources */,
+				6949A9E5031FC4D7B379CF1CDFD59646 /* LGBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE667CC6ADA3BD5A6B9A282D25C72AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,34 +412,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4819CF0AB5E119B2C28F433925CF524 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18A21EA8D87BA588A8CF128586EED806 /* LGAudioBundle.bundle in Resources */,
-				72BECDF6EFA706148A992637ECC2710F /* LGBarBundle.bundle in Resources */,
-				2D680467FEAF38B7E318D493EC694041 /* LGBundle.bundle in Resources */,
-				FBD73DF7A3AF6DC874749E734E121467 /* LGCommonBundle.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		232C69ECBA8D96B09784EF4364BB5EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0043158087AF219036403E6F4C55BB /* LGBundle-dummy.m in Sources */,
+				2394D56F02C9E1F6546106A61B317FB3 /* LGBundleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3E99D7348EB40979F1CC07E43B1E4F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E27725EC53FD3C695C0679A5DA841F4F /* Pods-LGBundle_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A104D8A17732A570746BE9C59D594888 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07211F04169E898D59827060AD88F694 /* LGBundle-dummy.m in Sources */,
-				F9C07B9F095B8E569346E6F0AE098640 /* LGBundleManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,37 +552,6 @@
 			};
 			name = Release;
 		};
-		53E890FD5CCD35B9CDA211EDAE7FC7A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32FF128F4BFA1D9B33AC4B182F340DF3 /* LGBundle.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGBundle/LGBundle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGBundle/LGBundle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGBundle/LGBundle.modulemap";
-				PRODUCT_MODULE_NAME = LGBundle;
-				PRODUCT_NAME = LGBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5AEC4C50970A199A347F4866D0C9BF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6B736177F29BC86EA597310EC5B6DE8 /* Pods-LGBundle_Example.debug.xcconfig */;
@@ -720,6 +649,69 @@
 			};
 			name = Debug;
 		};
+		A57B567A833AD596B12622DD65FF1E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EE48493E5089CA0A444BCADE8B9EA3 /* LGBundle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGBundle/LGBundle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBundle/LGBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBundle/LGBundle.modulemap";
+				PRODUCT_MODULE_NAME = LGBundle;
+				PRODUCT_NAME = LGBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4BE8D8862B5D5DB30D4BEC10C3C98A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF2B1FEA39DC7C1CB6C8CDFB4B66A54 /* LGBundle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGBundle/LGBundle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBundle/LGBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBundle/LGBundle.modulemap";
+				PRODUCT_MODULE_NAME = LGBundle;
+				PRODUCT_NAME = LGBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C9EA3D5B18A7432AFD50375CEF743BF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27DCCB5E00D1D66D31637E29CD9BD15D /* Pods-LGBundle_Tests.debug.xcconfig */;
@@ -752,38 +744,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		DA56D6926078F71962E75502B430A919 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 447B6D83039D5FE300DAC8FA9A5D8EA3 /* LGBundle.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGBundle/LGBundle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGBundle/LGBundle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGBundle/LGBundle.modulemap";
-				PRODUCT_MODULE_NAME = LGBundle;
-				PRODUCT_NAME = LGBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		EE97DB14795DE001914C024EE69BA3B6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -822,15 +782,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		180E8EF14A1FADD112BB8BA6F5D3A3A1 /* Build configuration list for PBXNativeTarget "LGBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53E890FD5CCD35B9CDA211EDAE7FC7A0 /* Debug */,
-				DA56D6926078F71962E75502B430A919 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -845,6 +796,15 @@
 			buildConfigurations = (
 				C9EA3D5B18A7432AFD50375CEF743BF9 /* Debug */,
 				EE97DB14795DE001914C024EE69BA3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A80A0B2451C1697B4520F029A5FA8C /* Build configuration list for PBXNativeTarget "LGBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE8D8862B5D5DB30D4BEC10C3C98A6 /* Debug */,
+				A57B567A833AD596B12622DD65FF1E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
