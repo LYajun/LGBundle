@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGBundle'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of LGBundle.'
 
 
@@ -16,21 +16,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/LYajun/LGBundle'
+  s.homepage         = 'https://gitee.com/yjhome/lgbundle'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LYajun' => 'liuyajun1999@icloud.com' }
-  s.source           = { :git => 'https://github.com/LYajun/LGBundle.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/yjhome/lgbundle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
   
-  s.subspec 'Manager' do |manager|
-    manager.source_files = 'LGBundle/Classes/Manager/*{h,m}'
-  end
-
   s.subspec 'Bundle' do |bundle|
-    bundle.dependency 'LGBundle/Manager'
+    bundle.source_files = 'LGBundle/Classes/Bundle/*{h,m}'
     bundle.resources = 'LGBundle/Classes/Bundle/Bundle.bundle'
   end
 
