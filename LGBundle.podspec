@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'BarBundle' do |barbundle|
-    barbundle.dependency 'LGBundle/Manager'
+    barbundle.dependency 'LGBundle/Bundle'
     barbundle.resources = 'LGBundle/Classes/BarBundle/BarBundle.bundle'
   end
 
