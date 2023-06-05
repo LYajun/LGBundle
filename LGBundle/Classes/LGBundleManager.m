@@ -10,7 +10,6 @@
 @interface LGBundleManager ()
 @property (nonatomic,strong) NSArray *loadingImgs;
 @property (nonatomic,strong) NSBundle *bundle;
-@property (nonatomic,strong) NSBundle *barBundle;
 
 @end
 @implementation LGBundleManager
@@ -27,12 +26,13 @@
 - (void)configure{
     _loadingGifWidth = IsIPad ? 140 : 100;
     _bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"Bundle" ofType:@"bundle"]];
-    _barBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:LGBundleManager.class] pathForResource:@"BarBundle" ofType:@"bundle"]];
   
     
     [self initLoadingImg];
 }
-
+- (NSBundle *)barBundle{
+    return _bundle;
+}
 - (void)initLoadingImg{
     CFAbsoluteTime startTime =CFAbsoluteTimeGetCurrent();
     NSFileManager *fielM = [NSFileManager defaultManager];
@@ -63,14 +63,14 @@
 }
 
 - (NSString *)navbarBgDir{
-    return [[_barBundle resourcePath] stringByAppendingPathComponent:@"navbar_bg"];
+    return [[_bundle resourcePath] stringByAppendingPathComponent:@"navbar_bg"];
 }
 
 - (NSString *)pathInBundleWithName:(NSString *)name{
     return [[_bundle resourcePath] stringByAppendingPathComponent:name];
 }
 - (NSString *)pathInBarBundleWithName:(NSString *)name{
-     return [[_barBundle resourcePath] stringByAppendingPathComponent:name];
+     return [[_bundle resourcePath] stringByAppendingPathComponent:name];
 }
 
 @end

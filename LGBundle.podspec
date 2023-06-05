@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGBundle'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of LGBundle.'
 
 
@@ -24,16 +24,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  
-  s.subspec 'Bundle' do |bundle|
-    bundle.source_files = 'LGBundle/Classes/Bundle/*{h,m}'
-    bundle.resources = 'LGBundle/Classes/Bundle/Bundle.bundle'
-  end
+  s.source_files = 'LGBundle/Classes/*{h,m}'
+  s.resources = 'LGBundle/Classes/Bundle.bundle'
 
-  s.subspec 'BarBundle' do |barbundle|
-    barbundle.dependency 'LGBundle/Bundle'
-    barbundle.resources = 'LGBundle/Classes/BarBundle/BarBundle.bundle'
-  end
-
-  
 end
