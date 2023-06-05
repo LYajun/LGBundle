@@ -1,6 +1,5 @@
 //
 //  LGBundleManager.m
-//  LGBundle
 //
 //  Created by 刘亚军 on 2020/7/9.
 //

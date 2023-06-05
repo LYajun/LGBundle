@@ -21,8 +21,8 @@
 {
     [super viewDidLoad];
 
-    self.navbarImgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBarBundleWithName:@"navbar_bg/bg_1"]];
-    self.imgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBundleWithName:@"search_empty/search_empty_1"]];
+//    self.navbarImgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBarBundleWithName:@"navbar_bg/bg_1"]];
+//    self.imgView.image = [UIImage imageWithContentsOfFile:[LGBundleManager.defaultManager pathInBundleWithName:@"search_empty/search_empty_1"]];
 }
 
 
